@@ -1,0 +1,213 @@
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    /* Classes */
+    .info_box {
+        width: 49%;
+        height: 280px;
+        padding: 30px;
+    }
+    
+    /* Id */
+    #logo {
+        font-size: 32px;
+    }
+    
+    #menu_bottom,
+    #menu_bottom.default,
+    #menu_top,
+    .container,
+    .header_container {
+        width: 720px;
+    }
+
+    #menu ul li {
+        margin-right: 10px;
+    }
+
+    .assembly_price .price {
+    width: 100%;
+}
+
+    .dialog {
+        width: 90%;
+        top: 10%;
+    }
+    .modal_title h2 {
+        font-size: 20px;
+        margin: 15px 0px 15px 20px !important;
+    }
+
+    .repair_img, #modal_bicycle {
+        width: 498px;
+        height: 333px;
+    }
+    #absorber, #absorber.modal-open {
+        width: 65px;
+        height: 118px;
+        top: 65px;
+        left: 313px;
+        z-index: 2;
+    }
+    #absorber_text, #absorber:hover ~ #absorber_text {
+        min-width: 150px;
+        top: 46px;
+        left: 360px;
+    }
+
+    #frame, #frame.modal-open {
+        width: 260px;
+        height: 175px;
+        top: 75px;
+        left: 90px;
+        z-index: 1;
+    }
+    #frame_text, #frame:hover ~ #frame_text {
+        min-width: 150px;
+        top: 56px;
+        left: 345px;
+    }
+
+    #wheel_2, #wheel_2.modal-open {
+        width: 195px;
+        height: 195px;
+        top: 130px;
+        left: 295px;
+        z-index: 1;
+    }
+    #wheel_2_text, #wheel_2:hover ~ #wheel_2_text {
+        min-width: 150px;
+        top: 111px;
+        left: 422px;
+    }
+
+    #wheel_1, #wheel_1.modal-open {
+        width: 198px;
+        height: 198px;
+        top: 128px;
+        left: 3px;
+        z-index: 1;
+    }
+    #wheel_1_text, #wheel_1:hover ~ #wheel_1_text {
+        min-width: 150px;
+        top: 109px;
+        left: -90px;
+    }
+
+    #chain, #chain.modal-open {
+        width: 170px;
+        height: 80px;
+        top: 205px;
+        left: 80px;
+        z-index: 2;
+    }
+    #chain_text, #chain:hover ~ #chain_text {
+        min-width: 150px;
+        height: 70px;
+        top: 290px;
+        left: 165px;
+    }
+
+    #carriage, #carriage.modal-open {
+        width: 63px;
+        height: 60px;
+        top: 210px;
+        left: 190px;
+        z-index: 3;
+    }
+    #carriage_text, #carriage:hover ~ #carriage_text {
+        min-width: 110px;
+        height: 70px;
+        top: 275px;
+        left: 222px;
+    }
+
+    #speed_selector, #speed_selector.modal-open {
+        width: 51px;
+        height: 75px;
+        top: 210px;
+        left: 75px;
+        z-index: 3;
+    }
+    #speed_selector_text, #speed_selector:hover ~ #speed_selector_text {
+        min-width: 150px;
+        height: 80px;
+        top: 290px;
+        left: 102px;
+    }
+
+    #brake_2, #brake_2.modal-open {
+        width: 40px;
+        height: 55px;
+        top: 120px;
+        left: 345px;
+        z-index: 3;
+    }
+    #brake_2_text, #brake_2:hover ~ #brake_2_text {
+        min-width: 150px;
+        top: 101px;
+        left: 350px;
+    }
+
+    #brake_1, #brake_1.modal-open {
+        width: 45px;
+        height: 50px;
+        top: 140px;
+        left: 135px;
+        z-index: 3;
+    }
+    #brake_1_text, #brake_1:hover ~ #brake_1_text {
+        min-width: 150px;
+        top: 121px;
+        left: 15px;
+    }
+
+    #handlebar, #handlebar.modal-open {
+        width: 60px;
+        height: 80px;
+        top: 20px;
+        left: 305px;
+        z-index: 3;
+    }
+    #handlebar_text, #handlebar:hover ~ #handlebar_text {
+        min-width: 150px;
+        top: 1px;
+        left: 337px;
+    }
+
+
+#repair .info_box {
+    width: 50%;
+}
+
+#assembly .info_box {
+    width: 55%;
+}
+    table {
+        width: 227px;
+    }
+
+    #table_center {
+    margin: 0 15px;
+}
+
+
+
+#map_label {
+    width: 280px;
+    left: 160px;
+}
+
+
+#map_label img {
+    width: 280px;
+}
+
+#contact {
+    width: 240px;
+    top: 10px;
+}
+
+label:before {
+    margin: 1px 0px 2px 10px !important;
+}
+
+}

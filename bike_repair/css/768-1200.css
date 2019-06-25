@@ -1,0 +1,309 @@
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+    /* Tags */
+    a,
+    h5 {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 48px;
+
+        width: 500px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .continue_selection {
+        font-size: 16px;
+    }
+
+    .repair_img, #modal_bicycle {
+        width: 598px;
+        height: 400px;
+    }
+    #absorber, #absorber.modal-open {
+        width: 85px;
+        height: 118px;
+        top: 78px;
+        left: 373px;
+        z-index: 2;
+    }
+    #absorber_text, #absorber:hover ~ #absorber_text {
+        min-width: 150px;
+        top: 78px;
+        left: 460px;
+    }
+
+    #frame, #frame.modal-open {
+        width: 321px;
+        height: 206px;
+        top: 100px;
+        left: 115px;
+        z-index: 1;
+    }
+    #frame_text, #frame:hover ~ #frame_text {
+        min-width: 150px;
+        top: 99px;
+        left: 439px;
+    }
+
+    #wheel_2, #wheel_2.modal-open {
+        width: 235px;
+        height: 235px;
+        top: 155px;
+        left: 355px;
+        z-index: 1;
+    }
+    #wheel_2_text, #wheel_2:hover ~ #wheel_2_text {
+        min-width: 150px;
+        top: 153px;
+        left: 592px;
+    }
+
+    #wheel_1, #wheel_1.modal-open {
+        width: 235px;
+        height: 235px;
+        top: 155px;
+        left: 5px;
+        z-index: 1;
+    }
+    #wheel_1_text, #wheel_1:hover ~ #wheel_1_text {
+        min-width: 150px;
+        top: 147px;
+        left: -145px;
+    }
+
+    #chain, #chain.modal-open {
+        width: 220px;
+        height: 100px;
+        top: 245px;
+        left: 88px;
+        z-index: 2;
+    }
+    #chain_text, #chain:hover ~ #chain_text {
+        min-width: 150px;
+        height: 70px;
+        top: 350px;
+        left: 200px;
+    }
+
+    #carriage, #carriage.modal-open {
+        width: 83px;
+        height: 80px;
+        top: 250px;
+        left: 225px;
+        z-index: 3;
+    }
+    #carriage_text, #carriage:hover ~ #carriage_text {
+        min-width: 150px;
+        height: 70px;
+        top: 335px;
+        left: 265px;
+    }
+
+    #speed_selector, #speed_selector.modal-open {
+        width: 71px;
+        height: 100px;
+        top: 245px;
+        left: 85px;
+        z-index: 3;
+    }
+    #speed_selector_text, #speed_selector:hover ~ #speed_selector_text {
+        min-width: 150px;
+        height: 75px;
+        top: 350px;
+        left: 120px;
+    }
+
+    #brake_2, #brake_2.modal-open {
+        width: 50px;
+        height: 70px;
+        top: 145px;
+        left: 418px;
+        z-index: 3;
+    }
+    #brake_2_text, #brake_2:hover ~ #brake_2_text {
+        min-width: 150px;
+        top: 143px;
+        left: 470px;
+    }
+
+    #brake_1, #brake_1.modal-open {
+        width: 50px;
+        height: 65px;
+        top: 165px;
+        left: 165px;
+        z-index: 3;
+    }
+    #brake_1_text, #brake_1:hover ~ #brake_1_text {
+        min-width: 150px;
+        top: 165px;
+        left: 15px;
+    }
+
+    #handlebar, #handlebar.modal-open {
+        width: 80px;
+        height: 90px;
+        top: 20px;
+        left: 365px;
+        z-index: 3;
+    }
+    #handlebar_text, #handlebar:hover ~ #handlebar_text {
+        min-width: 150px;
+        top: 20px;
+        left: 447px;
+    }
+
+
+/*  Map  */
+#map_label {
+    width: 300px;
+}
+
+
+#map_label img {
+    width: 300px;
+}
+
+#contact {
+    width: 250px;
+    left: 30px;
+}
+
+.h5 {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+    /* Classes */
+    .button {
+        width: 135px;
+        height: auto;
+
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+
+    .icon {
+        width: 24px;
+        height: 24px;
+        margin: 10px 8px;
+    }
+
+    .info_box {
+        padding: 30px;
+    }
+
+    .info_box h4 {
+        width: 90%;
+    }
+    .arrow {
+    height: 3px;
+  }
+  .arrow:after {
+    top: -4px;
+    right: -25px;
+    border-left-color: #b9b9b9;
+    border-width: 6px 0 6px 30px;
+    }
+
+/*    #drivery h4 {
+        width: 110%;
+    }*/
+#repair .info_box {
+    width: 35%;
+}
+
+#assembly .info_box {
+    width: 45%;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+    #map_title h3 {
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+
+    padding-top: 5px;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+    .info_box_icon {
+        height: 80px;
+        padding: 30px;
+    }
+
+    #present img {
+        height: auto;
+        width: 75px;
+    }
+
+    #drivery img {
+        height: 70px;
+        width: auto;
+    }
+
+    .social_network_box {
+        width: 29px;
+        height: 29px;
+        margin: 8px 4px;
+
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+
+    .social_network_img {
+        width: 29px;
+        height: 29px;
+    }
+    /* Id */
+    #logo {
+        font-size: 36px;
+    }
+
+    #menu ul li {
+        margin-right: 26px;
+    }
+
+    #menu_bottom,
+    #menu_bottom.default,
+    #menu_top,
+    .container,
+    .header_container {
+        width: 960px;
+    }
+
+    .steps {
+        margin-bottom: 30px;
+    }
+
+    .circle {
+        width:60px;
+        height:60px;
+        font-size:30px;
+        line-height:55px;
+        border: 3px solid #fe5f27;
+    }
+
+    table {
+        width: 297px; 
+    }
+
+    .service_icon img {
+        width: 15px;
+        height: 15px;
+    }
+}
