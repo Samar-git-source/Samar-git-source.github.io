@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+		<!-- Owl Carousel -->
+    <link rel="stylesheet" href="owl-carousel/node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="owl-carousel/node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+    <!-- Font - Philosopher -->
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="icon" type="image/png" href="img/icons/favicon/favicon.png">
+		<title>Парикмахер-визажист</title>
+</head>
+<body id="body">
+	<header>
+		<!-- Добавить сюда видео. Нарезку из видео -->
+	<div class="video_container">
+		<video id="video_header" autoplay loop="loop" preload="auto" muted>
+	     <source src="video/Hairdresser-video.mp4" type="video/mp4">
+	  </video>
+	  <div class="menu">
+		  <div class="mobile_line">
+			  <div class="mobile_icon">
+		        <span></span>
+		        <span></span>
+		        <span></span>
+		        <span></span>
+		    </div>
+		    <h2 class="mobile_phone">+375 99 999 99 99</h2>
+	    </div>
+		  <nav id="main_menu">
+				<ul class="container">
+					<li class="main_menu_button button"><a href="#portfolio" class="portfolio link-scroll">Портфолио</a></li>
+					<li class="main_menu_button button"><a id="diplomas" class="diplomas modal-open" onclick="ModalClick('#modal_diplomas')">Дипломы</a></li>
+					<li class="main_menu_button button"><a href="#comments" class="comments link-scroll">Отзывы</a></li>
+					<li class="main_menu_button button"><a id="price" class="price modal-open" onclick="ModalClick('#modal_price')">Прайс</a></li>
+					<li class="main_menu_icon button"><a href="#" id="insta"></a></li>
+					<li class="main_menu_icon button"><a href="#" id="vk"></a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="title_line">
+			<div class="container">
+				<div class="title_line_left">
+				<h1>Имя  Фамилия</h1>
+				<h2>Парикмахер-визажист</h2>
+				</div>
+				<div class="title_line_right">
+				<h2 id="phone">+375 99 999 99 99</h2>
+				<a class="button button_order_call">Заказать&ensp;звонок</a>
+				</div>
+			</div>
+		</div>
+		<!-- Modal Diplomas -->
+		<div class="modal" id="modal_diplomas">
+					<div>
+					<div class="modal_header">
+						<div class="modal_title">
+	              <h2>Дипломы</h2>
+	          </div>
+						<div class="modal_cross">
+	              <span></span><span></span>
+	          </div>
+          </div>
+          <!-- Modal Diplomas Subsection -->
+		      <div class="dialog">
+		      	<figure class="modal_figure figure_diploma" onclick="ModalClick('#modal_diplomas_1')">
+			      	<img src="img/diplomas/diploma_1.jpg" alt="Диплом" class="modal_img diploma_img">
+			      	<figcaption class="maximize"></figcaption>
+		      	</figure><figure class="modal_figure figure_diploma" onclick="ModalClick('#modal_diplomas_2')">
+			      	<img src="img/diplomas/diploma_2.jpg" alt="Диплом" class="modal_img diploma_img">
+			      	<figcaption class="maximize"></figcaption>
+		      	</figure><figure class="modal_figure figure_diploma" onclick="ModalClick('#modal_diplomas_3')">
+			      	<img src="img/diplomas/diploma_3.jpg" alt="Диплом" class="modal_img diploma_img">
+			      	<figcaption class="maximize"></figcaption>
+		      	</figure><figure class="modal_figure figure_diploma" onclick="ModalClick('#modal_diplomas_4')">
+			      	<img src="img/diplomas/diploma_4.jpg" alt="Диплом" class="modal_img diploma_img">
+			      	<figcaption class="maximize"></figcaption>
+		      	</figure><figure class="modal_figure figure_diploma" onclick="ModalClick('#modal_diplomas_5')">
+			      	<img src="img/diplomas/diploma_5.jpg" alt="Диплом" class="modal_img diploma_img">
+			      	<figcaption class="maximize"></figcaption>
+		      	</figure><figure class="modal_figure figure_diploma" onclick="ModalClick('#modal_diplomas_6')">
+			      	<img src="img/diplomas/diploma_6.jpg" alt="Диплом" class="modal_img diploma_img">
+			      	<figcaption class="maximize"></figcaption>
+		      	</figure><figure class="modal_figure figure_diploma" onclick="ModalClick('#modal_diplomas_7')">
+			      	<img src="img/diplomas/diploma_7.jpg" alt="Диплом" class="modal_img diploma_img">
+			      	<figcaption class="maximize"></figcaption>
+		      	</figure>
+		      	
+		     
+		     <div class="modal modal_real_size modal_diploma_real_size" id="modal_diplomas_1">
+      		<div>
+	      		<div class="modal_header">
+		      		<div class="modal_cross">
+		            <span></span><span></span>
+		          </div>
+	          </div>
+          </div>
+          <div class="dialog dialog_img_real_size dialog_diploma">
+	      		<img src="img/diplomas/diploma_1.jpg" alt="Свадебные прически" class="modal_img modal_img_real_size">
+	      	</div>
+		     </div>
+
+	      	<div class="modal modal_real_size modal_diploma_real_size" id="modal_diplomas_2">
+	      		<div>
+		      		<div class="modal_header">
+			      		<div class="modal_cross">
+			            <span></span><span></span>
+				        </div>
+			        </div>
+		        </div>
+	        <div class="dialog dialog_img_real_size dialog_diploma">
+	      		<img src="img/diplomas/diploma_2.jpg" alt="Свадебные прически" class="modal_img modal_img_real_size">
+	      	</div>
+	      	</div>
+
+	      	<div class="modal modal_real_size modal_diploma_real_size" id="modal_diplomas_3">
+	      		<div>
+		      		<div class="modal_header">
+			      		<div class="modal_cross">
+		              <span></span><span></span>
+			          </div>
+		          </div>
+	          </div>
+          <div class="dialog dialog_img_real_size dialog_diploma">
+	      		<img src="img/diplomas/diploma_3.jpg" alt="Свадебные прически" class="modal_img modal_img_real_size">
+	      	</div>
+	      	</div>
+
+	      	<div class="modal modal_real_size modal_diploma_real_size" id="modal_diplomas_4">
+	      		<div>
+		      		<div class="modal_header">
+			      		<div class="modal_cross">
+		              <span></span><span></span>
+			          </div>
+		          </div>
+	          </div>
+	          <div class="dialog dialog_img_real_size dialog_diploma">
+		      		<img src="img/diplomas/diploma_4.jpg" alt="Свадебные прически" class="modal_img modal_img_real_size">
+		      	</div>
+	      	</div>
+
+	      	<div class="modal modal_real_size modal_diploma_real_size" id="modal_diplomas_5">
+	      		<div>
+		      		<div class="modal_header">
+			      		<div class="modal_cross">
+		              <span></span><span></span>
+			          </div>
+		          </div>
+	          </div>
+          <div class="dialog dialog_img_real_size dialog_diploma">
+	      		<img src="img/diplomas/diploma_5.jpg" alt="Свадебные прически" class="modal_img modal_img_real_size">
+	      	</div>
+	      	</div>
+
+		      	<div class="modal modal_real_size modal_diploma_real_size" id="modal_diplomas_6">
+		      		<div>
+			      		<div class="modal_header">
+				      		<div class="modal_cross">
+			              <span></span><span></span>
+				          </div>
+			          </div>
+		          </div>
+		          <div class="dialog dialog_img_real_size dialog_diploma">
+			      		<img src="img/diplomas/diploma_6.jpg" alt="Свадебные прически" class="modal_img modal_img_real_size">
+			      	</div>
+			      	</div>
+
+		      	<div class="modal modal_real_size modal_diploma_real_size" id="modal_diplomas_7">
+		      		<div>
+			      		<div class="modal_header">
+				      		<div class="modal_cross">
+			              <span></span><span></span>
+				          </div>
+			          </div>
+		          </div>
+		          <div class="dialog dialog_img_real_size dialog_diploma">
+			      		<img src="img/diplomas/diploma_7.jpg" alt="Свадебные прически" class="modal_img modal_img_real_size">
+			      	</div>
+			      	</div>
+		      	</div>
+		     <!-- end Diplomas Dialog -->
+		  </div>
+		</div>
+
+		<!-- Modal Price -->
+		<div class="modal" id="modal_price">
+					<div>
+					<div class="modal_header">
+						<div class="modal_title">
+	              <h2>Цены на услуги</h2>
+	          </div>
+						<div class="modal_cross">
+	              <span></span><span></span>
+	          </div>
+          </div>
+          <!-- Modal Price Dialog -->
+		      <div class="dialog">
+						<table class="table_price">
+							<tr>
+								<td>Свадебная прическа</td>
+								<td>70 — 100 руб</td>
+							</tr>
+							<tr>
+								<td>Свадебный макияж</td>
+								<td>70 — 100 руб</td>
+							</tr>
+							<tr>
+								<td>Репетиция свадебных прически и макияжа</td>
+								<td>80 руб</td>
+							</tr>
+							<tr>
+								<td>Вечерняя прическа</td>
+								<td>35 — 100 руб</td>
+							</tr>
+							<tr>
+								<td>Вечерний макияж</td>
+								<td>50 — 80 руб</td>
+							</tr>
+							<tr>
+								<td>Окрашивание волос</td>
+								<td>от 30 руб</td>
+							</tr>
+							<tr>
+								<td>Плетение волос</td>
+								<td>от 30 руб</td>
+							</tr>
+							<tr id="table_price_firstLevel1" class="table_price_firstLevel" onClick="OpenClose('table_price_firstLevel1', 'table_price_nextLevel1');">
+								<td>Женская стрижка</td>
+								<td class="arrow-button"></td>
+							</tr>
+							<tr class="table_price_nextLevel1" style="display:none">
+								<td>Короткий волос</td>
+								<td>35 руб</td>
+							</tr>
+							<tr class="table_price_nextLevel1" style="display:none">
+								<td>Средний волос</td>
+								<td>45 руб</td>
+							</tr>
+							<tr class="table_price_nextLevel1" style="display:none">
+								<td>Длинный волос</td>
+								<td>60 руб</td>
+							</tr>
+							<tr id="table_price_firstLevel2" class="table_price_firstLevel" onClick="OpenClose('table_price_firstLevel2', 'table_price_nextLevel2');">
+								<td>Мужская стрижка</td>
+								<td class="arrow-button"></td>
+							</tr>
+							<tr class="table_price_nextLevel2" style="display:none">
+								<td>Простая</td>
+								<td>25 руб</td>
+							</tr>
+							<tr class="table_price_nextLevel2" style="display:none">
+								<td>Сложная</td>
+								<td>30 руб</td>
+							</tr>
+						</table>
+
+		      </div>
+		     <!-- end Price Dialog -->
+		  </div>
+		</div>
+</div>
+		
+
+	</header>
+
+	<main>
+		<!-- PORTFOLIO -->
+		<section id="portfolio">
+			<!-- <div class="container"> -->
+				<a id="wedding_hairstyle" class="modal-open"  onclick="ModalClick('#modal_wedding_hairstyle')">
+					<picture>
+						<figure class="portfolio_subsection">
+							<img src="img/portfolio/wedding_hairstyle.jpg" alt="Свадебные прически" class="portfolio_subsection_img">
+							<figcaption class="portfolio_subsection_name"><p>Свадебные прически</p></figcaption>
+						</figure>
+					</picture>
+				</a>
+					
+				<figure class="portfolio_subsection">
+					<img src="img/portfolio/wedding_makeup.jpg" alt="Свадебный макияж" class="portfolio_subsection_img">
+					<figcaption class="portfolio_subsection_name"><p>Свадебный макияж</p></figcaption>
+				</figure>
+				<figure class="portfolio_subsection">
+					<img src="img/portfolio/evening_hairstyle.jpg" alt="Вечерние прически" class="portfolio_subsection_img">
+					<figcaption class="portfolio_subsection_name"><p>Вечерние прически</p></figcaption>
+				</figure>
+				<figure class="portfolio_subsection">
+					<img src="img/portfolio/evening_makeup.jpg" alt="Вечерний макияж" class="portfolio_subsection_img">
+					<figcaption class="portfolio_subsection_name"><p>Вечерний макияж</p></figcaption>
+				</figure>
+				<figure class="portfolio_subsection">
+					<img src="img/portfolio/hair_coloring.jpg" alt="Окрашивание волос" class="portfolio_subsection_img">
+					<figcaption class="portfolio_subsection_name"><p>Окрашивание волос</p></figcaption>
+				</figure>
+				<figure class="portfolio_subsection">
+					<img src="img/portfolio/hair_braiding.jpg" alt="Плетение волос" class="portfolio_subsection_img">
+					<figcaption class="portfolio_subsection_name"><p>Плетение волос</p></figcaption>
+				</figure>
+				<figure class="portfolio_subsection">
+					<img src="img/portfolio/women_haircut.jpg" alt="Женские стрижки" class="portfolio_subsection_img">
+					<figcaption class="portfolio_subsection_name"><p>Женские стрижки</p></figcaption>
+				</figure>
+				<figure class="portfolio_subsection">
+					<img src="img/portfolio/men_haircut.jpg" alt="Мужские стрижки" class="portfolio_subsection_img">
+					<figcaption class="portfolio_subsection_name"><p>Мужские стрижки</p></figcaption>
+				</figure>
+				</div>
+
+			<!-- Modal -->
+				<div class="modal" id="modal_wedding_hairstyle">
+					<div>
+					<div class="modal_header">
+						<div class="modal_title">
+	              <h2>Свадебный макияж</h2>
+	          </div>
+						<div class="modal_cross">
+	              <span></span><span></span>
+	          </div>
+          </div>
+          <!-- Modal Subsection -->
+		      <div class="dialog">
+		      	<figure class="modal_figure" onclick="ModalClick('#modal_wedding_hairstyle_1')">
+			      	<img src="img/portfolio/wedding_hairstyle.jpg" alt="Увеличить" class="modal_img">
+			      	<figcaption class="maximize"></figcaption>
+		      	</figure>
+		      	<div class="modal modal_real_size" id="modal_wedding_hairstyle_1">
+		      		<div>
+		      		<div class="modal_header">
+		      		<div class="modal_cross">
+	              <span></span><span></span>
+	          </div>
+	          </div>
+	          </div>
+	          <div class="dialog dialog_img_real_size">
+		      		<img src="img/portfolio/wedding_hairstyle.jpg" alt="Свадебные прически" class="modal_img modal_img_real_size">
+		      	</div>
+		      	</div>
+		      	<figure class="modal_figure">
+			      	<img src="img/portfolio/wedding_makeup.jpg" alt="Увеличить" class="modal_img">
+			      	<figcaption class="maximize"></figcaption>
+		      	</figure>
+		      	<figure class="modal_figure">
+			      	<img src="img/portfolio/evening_hairstyle.jpg" alt="Увеличить" class="modal_img">
+			      	<figcaption class="maximize"></figcaption>
+		      	</figure>
+		      	<img src="img/portfolio/evening_makeup.jpg" alt="Вечерний макияж" class="modal_img">
+		      	<img src="img/portfolio/hair_coloring.jpg" alt="Окрашивание волос" class="modal_img">
+		      	<img src="img/portfolio/hair_braiding.jpg" alt="Плетение волос" class="modal_img">
+		      	<img src="img/portfolio/women_haircut.jpg" alt="Женские стрижки" class="modal_img">
+						<img src="img/portfolio/men_haircut.jpg" alt="Мужские стрижки" class="modal_img">
+						<img src="img/portfolio/wedding_hairstyle.jpg" alt="Свадебные прически" class="modal_img">
+		      	<img src="img/portfolio/wedding_makeup.jpg" alt="Свадебный макияж" class="modal_img">
+		      	<img src="img/portfolio/evening_hairstyle.jpg" alt="Вечерние прически" class="modal_img">
+		      	<img src="img/portfolio/evening_makeup.jpg" alt="Вечерний макияж" class="modal_img">
+		      	<img src="img/portfolio/hair_coloring.jpg" alt="Окрашивание волос" class="modal_img">
+		      	<img src="img/portfolio/hair_braiding.jpg" alt="Плетение волос" class="modal_img">
+		      	<img src="img/portfolio/women_haircut.jpg" alt="Женские стрижки" class="modal_img">
+						<img src="img/portfolio/men_haircut.jpg" alt="Мужские стрижки" class="modal_img">
+						<img src="img/portfolio/wedding_hairstyle.jpg" alt="Свадебные прически" class="modal_img">
+		      	<img src="img/portfolio/wedding_makeup.jpg" alt="Свадебный макияж" class="modal_img">
+		      	<img src="img/portfolio/evening_hairstyle.jpg" alt="Вечерние прически" class="modal_img">
+		      	<img src="img/portfolio/evening_makeup.jpg" alt="Вечерний макияж" class="modal_img">
+		      	<img src="img/portfolio/hair_coloring.jpg" alt="Окрашивание волос" class="modal_img">
+		      	<img src="img/portfolio/hair_braiding.jpg" alt="Плетение волос" class="modal_img">
+		      	<img src="img/portfolio/women_haircut.jpg" alt="Женские стрижки" class="modal_img">
+						<img src="img/portfolio/men_haircut.jpg" alt="Мужские стрижки" class="modal_img">
+						<img src="img/portfolio/wedding_hairstyle.jpg" alt="Свадебные прически" class="modal_img">
+		      	<img src="img/portfolio/wedding_makeup.jpg" alt="Свадебный макияж" class="modal_img">
+		      	<img src="img/portfolio/evening_hairstyle.jpg" alt="Вечерние прически" class="modal_img">
+		      	<img src="img/portfolio/evening_makeup.jpg" alt="Вечерний макияж" class="modal_img">
+		      	<img src="img/portfolio/hair_coloring.jpg" alt="Окрашивание волос" class="modal_img">
+		      	<img src="img/portfolio/hair_braiding.jpg" alt="Плетение волос" class="modal_img">
+		      </div>
+		      </div>
+				<!-- </div> -->
+		</section>
+
+		<!-- COMMENTS -->
+		<article id="comments">
+			<div class="container">
+			<!-- article.personal_comment*12 - Owl Carousel + Добавить стрелки -->
+				<div class="owl-carousel owl-theme owl-loaded" id="owl-carousel_comments">
+					<div class="owl-stage-outer">
+						<div class="owl-stage">
+							<div class="owl-item">
+								<article class="personal_comment">
+									<img class="ava" src="img/ava/ava.png" alt="">
+									<div class="name">Имя Фамилия</div>
+									<p class="comment_text">Также как семантический разбор внешних противодействий влечет за собой процесс внедрения и модернизации анализа существующих паттернов поведения.</p>
+								</article>
+							</div>
+							<div class="owl-item">
+								<article class="personal_comment">
+						    	<img class="ava" src="img/ava/ava.png" alt="">
+									<div class="name">Имя Фамилия</div>
+									<p class="comment_text">С учетом сложившейся международной обстановки, разбавленное изрядной долей эмпатии, рациональное мышление выявляет срочную потребность позиций, занимаемых участниками в отношении поставленных задач. Значимость этих проблем настолько очевидна, что консультация с широким активом говорит о возможностях экспериментов, поражающих по своей масштабности и грандиозности.</p>
+					    	</article>
+					    </div>
+					    <div class="owl-item">
+					    	<article class="personal_comment">
+						    	<img class="ava" src="img/ava/ava.png" alt="">
+									<div class="name">Имя Фамилия</div>
+									<p class="comment_text">Современные технологии достигли такого уровня, что граница обучения кадров играет определяющее значение для поэтапного и последовательного развития общества.</p>
+					    	</article>
+					    </div>
+					    <div class="owl-item">
+					    	<article class="personal_comment">
+									<img class="ava" src="img/ava/ava.png" alt="">
+									<div class="name">Имя Фамилия</div>
+									<p class="comment_text">Также как семантический разбор внешних противодействий влечет за собой процесс внедрения и модернизации анализа существующих паттернов поведения.</p>
+								</article>
+							</div>
+							<div class="owl-item">
+								<article class="personal_comment">
+						    	<img class="ava" src="img/ava/ava.png" alt="">
+									<div class="name">Имя Фамилия</div>
+									<p class="comment_text">С учетом сложившейся международной обстановки, разбавленное изрядной долей эмпатии, рациональное мышление выявляет срочную потребность позиций, занимаемых участниками в отношении поставленных задач. Значимость этих проблем настолько очевидна, что консультация с широким активом говорит о возможностях экспериментов, поражающих по своей масштабности и грандиозности.</p>
+					    	</article>
+					    </div>
+					    <div class="owl-item">
+					    	<article class="personal_comment">
+						    	<img class="ava" src="img/ava/ava.png" alt="">
+									<div class="name">Имя Фамилия</div>
+									<p class="comment_text">Современные технологии достигли такого уровня, что граница обучения кадров играет определяющее значение для поэтапного и последовательного развития общества.</p>
+					    	</article>
+					    </div>
+					    <div class="owl-item">
+					    	<article class="personal_comment">
+									<img class="ava" src="img/ava/ava.png" alt="">
+									<div class="name">Имя Фамилия</div>
+									<p class="comment_text">Также как семантический разбор внешних противодействий влечет за собой процесс внедрения и модернизации анализа существующих паттернов поведения.</p>
+								</article>
+							</div>
+							<div class="owl-item">
+								<article class="personal_comment">
+						    	<img class="ava" src="img/ava/ava.png" alt="">
+									<div class="name">Имя Фамилия</div>
+									<p class="comment_text">С учетом сложившейся международной обстановки, разбавленное изрядной долей эмпатии, рациональное мышление выявляет срочную потребность позиций, занимаемых участниками в отношении поставленных задач. Значимость этих проблем настолько очевидна, что консультация с широким активом говорит о возможностях экспериментов, поражающих по своей масштабности и грандиозности.</p>
+					    	</article>
+					    </div>
+					    <div class="owl-item">
+					    	<article class="personal_comment">
+						    	<img class="ava" src="img/ava/ava.png" alt="">
+									<div class="name">Имя Фамилия</div>
+									<p class="comment_text">Современные технологии достигли такого уровня, что граница обучения кадров играет определяющее значение для поэтапного и последовательного развития общества.</p>
+					    	</article>
+					    </div>
+						</div>
+					</div>
+				</div>
+
+				<!--  -->
+				<a href="" class="button_vk button button_link">Оставить отзыв&nbsp;&nbsp;<span></span></a>
+			</div>
+		</article>
+
+		<!-- INSTAGRAM -->
+		<section id="instagram">
+			<div class="container">
+			<!-- article.instagram_photo*12 - Owl Carousel + Добавить стрелки -->
+				<div class="owl-carousel owl-theme owl-loaded" id="owl-carousel_instagram">
+					<div class="owl-stage-outer">
+						<div class="owl-stage">
+							<div class="owl-item">
+								<a class="insta_img" href=""><img src="img/insta/insta_1.jpg" alt=""></a>
+							</div>
+							<div class="owl-item">
+					    	<a class="insta_img" href=""><img src="img/insta/insta_2.jpg" alt=""></a>
+					    </div>
+					    <div class="owl-item">
+					    	<a class="insta_img" href=""><img src="img/insta/insta_1.jpg" alt=""></a>
+					    </div>
+					    <div class="owl-item">
+								<a class="insta_img" href=""><img src="img/insta/insta_2.jpg" alt=""></a>
+							</div>
+							<div class="owl-item">
+					    	<a class="insta_img" href=""><img src="img/insta/insta_1.jpg" alt=""></a>
+					    </div>
+					    <div class="owl-item">
+					    	<a class="insta_img" href=""><img src="img/insta/insta_2.jpg" alt=""></a>
+					    </div>
+					    <div class="owl-item">
+								<a class="insta_img" href=""><img src="img/insta/insta_1.jpg" alt=""></a>
+							</div>
+							<div class="owl-item">
+					    	<a class="insta_img" href=""><img src="img/insta/insta_2.jpg" alt=""></a>
+					    </div>
+					    <div class="owl-item">
+					    	<a class="insta_img" href=""><img src="img/insta/insta_1.jpg" alt=""></a>
+					    </div>
+					    <div class="owl-item">
+					    	<a class="insta_img" href=""><img src="img/insta/insta_2.jpg" alt=""></a>
+					    </div>
+					    <div class="owl-item">
+								<a class="insta_img" href=""><img src="img/insta/insta_1.jpg" alt=""></a>
+							</div>
+							<div class="owl-item">
+					    	<a class="insta_img" href=""><img src="img/insta/insta_2.jpg" alt=""></a>
+					    </div>
+						</div>
+					</div>
+				</div>
+
+				<a href="" class="button_insta button button_link">Просмотреть&nbsp;&nbsp;<span></span></a>
+			</div>
+		</section>
+
+	</main>
+
+	<footer>
+		<div>Поделиться
+			<ul class="share_list">
+				<li>
+					<a href="" class="share_icon share_facebook"></a>
+				</li>
+				<li>
+					<a href="" class="share_icon share_twitter"></a>
+				</li>
+				<li>
+					<a href="" class="share_icon share_vk"></a>
+				</li>
+				<li>
+					<a href="" class="share_icon share_odnoklassniki"></a>
+				</li>
+				<li>
+					<a href="" class="share_icon share_viber"></a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="copyright">© И. О. Фамилия, 2019</div>
+
+	</footer>
+
+
+<!-- <svg class="icon_facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="#facebook"></use>
+</svg> -->
+	
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+  <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+  
+	<!-- Owl Carousel -->
+	<script src="owl-carousel/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+	<script>$(document).ready(function(){
+		$('.owl-carousel').owlCarousel();
+		$('.owl-carousel').owlCarousel();
+	});
+	</script>
+
+	<!-- jQuery Substring Text -->
+	<script type="text/javascript" src="js/jquery.liTextLength.js"></script>
+	<script>
+		$(function(){
+		  $('.comment_text').liTextLength({
+		    length: 220,        //Видимое кол-во символов
+		    afterLength: '...', //Текст после видимого содержания   
+		    fullText:true,      //Добавить ссылку для отображения скрытого текста
+		    moreText: '<br>читать&nbsp;весь&nbsp;отзыв',  //Текст ссылки до показа скрытого содержания
+		    lessText: '<br>свернуть'   //Текст ссылки после показа скрытого содержания
+		  });
+		});
+	</script>
+	<!-- My JS -->
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
